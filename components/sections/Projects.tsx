@@ -87,18 +87,22 @@ export default function Projects() {
                     <h3 className="text-lg font-bold text-text-primary leading-snug">
                       {project.title}
                     </h3>
-                    <p className="text-xs text-text-muted mt-1">{project.subtitle}</p>
+                    <p className="text-xs text-text-muted mt-1">
+                      {(t as typeof t & { items?: { subtitle: string }[] }).items?.[project.id - 1]?.subtitle ?? project.subtitle}
+                    </p>
                   </div>
                   <div className="text-2xl shrink-0">{project.type === "hook" ? "🪝" : "🖥️"}</div>
                 </div>
 
-                <p className="text-text-secondary text-sm leading-relaxed">{project.description}</p>
+                <p className="text-text-secondary text-sm leading-relaxed">
+                  {(t as typeof t & { items?: { description: string }[] }).items?.[project.id - 1]?.description ?? project.description}
+                </p>
               </div>
 
               {/* Highlights */}
               {project.highlights && (
                 <div className="px-6 pb-4 space-y-2">
-                  {project.highlights.slice(0, 3).map((h, i) => (
+                  {((t as typeof t & { items?: { highlights?: string[] }[] }).items?.[project.id - 1]?.highlights ?? project.highlights).slice(0, 3).map((h, i) => (
                     <div key={i} className="flex gap-2.5">
                       <span className="text-primary text-xs mt-1 shrink-0">▹</span>
                       <p className="text-text-muted text-xs leading-relaxed">{h}</p>

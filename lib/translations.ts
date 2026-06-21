@@ -279,6 +279,113 @@ export const translations = {
         app: "Ứng Dụng Web",
       },
       moreHighlights: "+{n} điểm nổi bật khác",
+      items: [
+        {
+          subtitle: "Hệ Thống Quản Lý Nhân Sự",
+          description: "Hệ thống quản lý nhân sự doanh nghiệp xử lý dữ liệu nhân viên, cơ cấu tổ chức, chấm công và quy trình HR.",
+          highlights: ["Bảng dữ liệu responsive với phân trang, sắp xếp và lọc cho dữ liệu HR phức tạp", "Form nhiều bước với trường động và xác thực quy tắc nghiệp vụ bằng React Hook Form", "Tích hợp RESTful API cho CRUD nhân viên và đồng bộ dữ liệu thời gian thực"],
+        },
+        {
+          subtitle: "Quản Lý Đơn Hàng Bán",
+          description: "Module quản lý đơn hàng bán xử lý tạo đơn hàng, chọn sản phẩm, định giá, quản lý khách hàng và quy trình phê duyệt.",
+          highlights: ["Form đơn hàng phức tạp với các mục động và xác thực quy tắc nghiệp vụ", "Bảng dữ liệu tối ưu hiệu suất cho tập dữ liệu đơn hàng và sản phẩm lớn", "Quản lý vòng đời đơn hàng đầy đủ qua tích hợp RESTful API"],
+        },
+        {
+          subtitle: "Quản Lý Đơn Mua Hàng",
+          description: "Hệ thống đơn mua hàng quản lý đơn đặt hàng nhà cung cấp, quy trình mua sắm và phê duyệt đa cấp.",
+          highlights: ["Form đặt hàng mua động với quản lý nhà cung cấp và sản phẩm", "Giao diện quy trình phê duyệt đa cấp với kiểm soát theo vai trò", "Tích hợp RESTful API cho quản lý vòng đời mua sắm"],
+        },
+        {
+          subtitle: "Hệ Thống Quản Lý Kế Toán",
+          description: "Module kế toán xử lý nhập dữ liệu tài chính, bút toán nhật ký, bảng báo cáo và quản lý quy trình tài chính.",
+          highlights: ["Form nhập dữ liệu tài chính với xác thực phức tạp và quy tắc nghiệp vụ", "Giao diện báo cáo và dashboard cho dữ liệu kế toán", "Tích hợp API cho các hoạt động tài chính và đồng bộ dữ liệu"],
+        },
+        {
+          subtitle: "Hệ Thống Quản Lý Tài Liệu",
+          description: "Quản lý tài liệu doanh nghiệp với phân cấp thư mục, duyệt file, quy trình tải lên và kiểm soát truy cập theo vai trò.",
+          highlights: ["Giao diện duyệt thư mục/file phân cấp với điều hướng breadcrumb", "Quy trình tải lên và phân loại file", "Kiểm soát truy cập tài liệu theo vai trò"],
+        },
+        {
+          subtitle: "Hệ Thống Quản Lý Tài Chính",
+          description: "Module dịch vụ tài chính quản lý ngân sách, giao dịch tài chính, trung tâm chi phí và báo cáo tài chính.",
+          highlights: ["Form quản lý ngân sách và giao dịch tài chính", "Dashboard theo dõi trung tâm chi phí và báo cáo", "Tích hợp với API kế toán và ERP backend"],
+        },
+        {
+          subtitle: "Hệ Thống Quản Lý Tài Sản",
+          description: "Hệ thống quản lý tài sản doanh nghiệp theo dõi tài sản công ty, lịch khấu hao, hồ sơ bảo trì và phân bổ tài sản.",
+          highlights: ["Sổ đăng ký tài sản với theo dõi chi tiết và quản lý vòng đời", "Tính toán khấu hao và giao diện báo cáo", "Phân bổ tài sản và giao diện quy trình bảo trì"],
+        },
+        {
+          subtitle: "Hệ Thống Quản Lý Hợp Đồng",
+          description: "Hệ thống quản lý vòng đời hợp đồng xử lý tạo hợp đồng, quy trình phê duyệt, theo dõi hết hạn và đính kèm tài liệu.",
+          highlights: ["Form tạo hợp đồng với điều khoản động và đính kèm", "Quy trình phê duyệt với kiểm soát ký theo vai trò", "Giao diện theo dõi hết hạn và thông báo hợp đồng"],
+        },
+        {
+          subtitle: "Hệ Thống Quản Lý Sản Xuất",
+          description: "Module quản lý sản xuất xử lý lệnh sản xuất, định mức nguyên vật liệu, lệnh công việc và theo dõi sản xuất.",
+          highlights: ["Quản lý lệnh sản xuất với cấu hình BOM", "Theo dõi lệnh công việc và giao diện giám sát tiến độ", "Tích hợp quy trình sản xuất với API kho hàng"],
+        },
+        {
+          subtitle: "Quản Lý Kho Nội Bộ",
+          description: "Quản lý kho nội bộ xử lý di chuyển hàng tồn kho, theo dõi tồn kho, hoạt động nhập/xuất và báo cáo tồn kho.",
+          highlights: ["Form di chuyển hàng với theo dõi theo lô và số sê-ri", "Dashboard tồn kho với giao diện mức tồn kho thời gian thực", "Giao diện quản lý hoạt động nhập/xuất"],
+        },
+        {
+          subtitle: "Quản Lý Sản Phẩm & Kho Hàng",
+          description: "Hệ thống kho sản phẩm quản lý danh mục sản phẩm, mức tồn kho, vị trí kho và hoạt động kiểm kê.",
+          highlights: ["Quản lý danh mục sản phẩm với hỗ trợ danh mục và biến thể", "Giao diện quản lý vị trí và ngăn kho", "Quy trình hoạt động kiểm kê với tích hợp RESTful API"],
+        },
+        {
+          subtitle: "Quản Lý Thương Nhân & Sản Phẩm",
+          description: "Hệ thống quản lý thương nhân và sản phẩm xử lý tuyển dụng thương nhân, niêm yết sản phẩm, định giá và quản lý danh mục.",
+          highlights: ["Form tuyển dụng thương nhân với xác minh tài liệu", "Quản lý niêm yết sản phẩm với cấu hình giá và biến thể", "Quản lý danh mục với giao diện phân cấp danh mục"],
+        },
+        {
+          subtitle: "Hệ Thống Quản Lý Đối Tác",
+          description: "Hệ thống quản lý quan hệ đối tác xử lý đăng ký đối tác, hợp đồng, theo dõi hiệu suất và quy trình cộng tác.",
+          highlights: ["Giao diện quy trình đăng ký và giới thiệu đối tác", "Dashboard theo dõi hiệu suất và báo cáo", "Tích hợp quản lý hợp đồng và thỏa thuận"],
+        },
+        {
+          subtitle: "Hệ Thống Quản Lý Tài Xế",
+          description: "Hệ thống quản lý tài xế cho hoạt động logistics, xử lý hồ sơ tài xế, phân công, lịch trình và theo dõi hiệu suất.",
+          highlights: ["Quản lý hồ sơ tài xế với theo dõi tài liệu và bằng lái", "Giao diện phân công và lập lịch cho hoạt động logistics", "Dashboard giám sát và báo cáo hiệu suất"],
+        },
+        {
+          subtitle: "Quản Lý Tài Liệu Điện Tử",
+          description: "Hệ thống quản lý tài liệu điện tử cho quy trình tài liệu cấp doanh nghiệp, chữ ký số và lưu trữ tài liệu.",
+          highlights: ["Quản lý quy trình tài liệu với định tuyến phê duyệt", "Giao diện xem và chú thích tài liệu số", "Lưu trữ và truy xuất tài liệu với chức năng tìm kiếm"],
+        },
+        {
+          subtitle: "Hệ Thống Quản Lý Chất Lượng",
+          description: "Hệ thống quản lý chất lượng xử lý quy trình kiểm soát chất lượng, kiểm tra, báo cáo không phù hợp và kiểm toán chất lượng.",
+          highlights: ["Form kiểm tra chất lượng với danh sách kiểm tra và giao diện chấm điểm", "Quản lý và theo dõi báo cáo không phù hợp", "Quy trình kiểm toán chất lượng với quản lý hành động khắc phục"],
+        },
+        {
+          subtitle: "Quản Lý Hiệu Suất Dịch Vụ/Nhà Cung Cấp",
+          description: "Hệ thống quản lý hiệu suất theo dõi KPI của nhà cung cấp và dịch vụ, đánh giá, thẻ điểm và kế hoạch cải tiến.",
+          highlights: ["Cấu hình KPI và giao diện thẻ điểm hiệu suất", "Form đánh giá và quy trình chấm điểm nhà cung cấp", "Dashboard xu hướng hiệu suất và báo cáo"],
+        },
+        {
+          subtitle: "Quản Lý Nhiệm Vụ & Dự Án",
+          description: "Hệ thống quản lý nhiệm vụ cho nhóm nội bộ, xử lý tạo nhiệm vụ, phân công, theo dõi tiến độ và quản lý thời hạn.",
+          highlights: ["Bảng nhiệm vụ với quản lý trạng thái kéo và thả", "Giao diện phân công và quản lý ưu tiên nhiệm vụ", "Theo dõi tiến độ và giao diện thông báo thời hạn"],
+        },
+        {
+          subtitle: "Hệ Thống Quản Lý Tổ Chức",
+          description: "Hệ thống quản lý tổ chức xử lý cơ cấu công ty, phòng ban, vị trí và phân cấp tổ chức.",
+          highlights: ["Trực quan hóa sơ đồ tổ chức với quản lý phòng ban phân cấp", "Quản lý vị trí và vai trò với cấu hình quyền", "Thao tác CRUD phòng ban với tích hợp RESTful API"],
+        },
+        {
+          subtitle: "Quản Lý Cấu Hình Công Ty",
+          description: "Dịch vụ cấu hình công ty quản lý cài đặt công ty đa tenant, quản lý chi nhánh và cấu hình cấp công ty.",
+          highlights: ["Giao diện cài đặt và cấu hình công ty đa tenant", "Form quản lý chi nhánh và công ty con", "Quản lý quyền và kiểm soát truy cập cấp công ty"],
+        },
+        {
+          subtitle: "Nghiên Cứu & Phát Triển",
+          description: "Dự án R&D nội bộ để khám phá công nghệ mới, tạo nguyên mẫu tính năng mới và đánh giá các công cụ cho hệ sinh thái APUS ERP.",
+          highlights: ["Đánh giá công nghệ và phát triển bằng chứng khái niệm", "Tạo nguyên mẫu tính năng cho các module ERP sắp ra mắt"],
+        },
+      ],
     },
     achievements: {
       sectionLabel: "05. thành tựu",
