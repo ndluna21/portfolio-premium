@@ -1,0 +1,20 @@
+stages:
+ - test
+ - build
+
+test: 
+  stage: test
+  image: node:20-alpine
+  script:
+    - npm install
+    - npm run lint
+
+build:
+  stage: build
+  image: docker:latest
+  services:
+    - docker:dind
+  script:
+    - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+    - docker build -t lunarian510/portfolio:v1 .
+    - docker push lunarian510/portfolio:v1
