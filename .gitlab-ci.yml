@@ -2,7 +2,7 @@ stages:
   - test
   - build
 
-test: 
+test:
   stage: test
   image: node:20-alpine
   script:
